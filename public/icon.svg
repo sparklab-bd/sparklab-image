@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Spark Image">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#6366F1"/>
+  <text x="30" y="42" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="27" font-weight="800" letter-spacing="-1" fill="#FFFFFF">SI</text>
+  <circle cx="49" cy="15" r="3.5" fill="#FFFFFF"/>
+</svg>

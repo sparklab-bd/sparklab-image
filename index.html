@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'none';"
+    />
+    <title>Spark Image — Private Offline Image Editor</title>
+    <meta
+      name="description"
+      content="Ultra-simple, distraction-free, 100% client-side PWA image editor. Convert to WebP, batch compress, resize for social media, strip EXIF/GPS, and extract brand color palettes offline."
+    />
+    <meta property="og:title" content="Spark Image — Private Offline Image Editor" />
+    <meta
+      property="og:description"
+      content="Edit images effortlessly in 3 steps, 100% privately in your browser. Works offline."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#6366F1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Spark Image" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body class="bg-[#F8FAFC] text-[#0F172A] antialiased selection:bg-[#6366F1]/20 selection:text-[#0F172A] dark:bg-[#0B1120] dark:text-slate-100 dark:selection:bg-[#6366F1]/30 dark:selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

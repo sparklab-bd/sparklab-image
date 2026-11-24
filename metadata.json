@@ -1,0 +1,6 @@
+{
+  "name": "Spark Image",
+  "description": "Ultra-simple, distraction-free, 100% client-side PWA image editor for WebP conversion, smart batch compression, social media resizing, EXIF/GPS removal, and brand color palette extraction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
